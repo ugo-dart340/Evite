@@ -1,0 +1,80 @@
+.navbar {
+    list-style: none;
+    background-color: grey;
+    margin: 0px auto;
+    padding: 10px 0px;
+    width: auto;
+    text-align: center;   
+}
+
+.navbar li {
+    display: inline;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 59px;
+    font-size: 24px;
+}
+
+.navbar a:hover {
+    background-color: darkslategrey;
+    padding: 12px 60px;
+}
+
+#container {
+    border: 6px solid blue;
+    border-top: 10px dotted red;
+    width: 75%;
+    height: 500px;
+    margin: 0px auto;
+    overflow: auto;
+}
+
+#landscape {
+    position: relative;
+    top: 0px;
+    z-index: -1;
+    float: left;
+}
+
+#sponge {
+    position: absolute;
+    top: 100px;
+    left: 150px;
+    z-index: 2;
+}
+
+#bart {
+    position: absolute;
+    top: 10px;
+    z-index: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
