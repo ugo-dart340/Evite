@@ -1,0 +1,75 @@
+.navbar {
+    list-style: none;
+    background-color: blue;
+    margin: 0px auto;
+    padding: 20px 0px;
+    width: auto;
+    text-align: center;   
+}
+
+.navbar li {
+    display: inline;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 70px;
+    font-size: 24px;
+}
+
+.navbar a:hover {
+    background-color: red;
+    padding: 12px 60px;
+}
+
+#container {
+    border: 6px dotted blue;
+    border-top: solid red;
+    width: 75%;
+    height: 500px;
+    margin: 0px auto;
+    overflow: auto;
+}
+
+#76ers {
+    position: relative;
+    top: 0px;
+    z-index: -1;
+    float: left;
+}
+
+#Basketball {
+    position: absolute;
+    top: 3px;
+    z-index: 6;
+    float: right;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
